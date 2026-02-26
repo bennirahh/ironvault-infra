@@ -71,8 +71,6 @@ nixos-rebuild switch --flake .#node-01 --target-host root@<node-ip>
  https://github.com/bennirahh/ironvault-docs/blob/main/docs/001-physical-infrastructure-selection.md
 
 ---
-
-# 👤 Author
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Author](https://img.shields.io/badge/author-Bennirahh-white?style=flat&logo=github)
 
