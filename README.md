@@ -78,7 +78,7 @@ nixos-rebuild switch --flake .#node-01 --target-host root@<node-ip>
   https://github.com/Bennirahh/ironvault-docs
 
 - **Security Compliance (ADR-001):**  
- https://github.com/bennirahh/ironvault-docs/blob/main/docs/001-physical-infrastructure-selection.md
+ https://github.com/bennirahh/ironvault-docs/blob/main/docs/adr/001-physical-infrastructure-selection.md
 
 ---
 ![License](https://img.shields.io/badge/license-MIT-blue)
