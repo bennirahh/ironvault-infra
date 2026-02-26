@@ -12,12 +12,22 @@
 
 ## 🏗️ Technical Stack
 
-- **Operating System:** [NixOS](https://nixos.org/) (24.11 Stable)
-- **Provisioning:** [Nix Flakes](https://nixos.wiki/wiki/Flakes) (Hermetic & Deterministic)
-- **Secret Management:** [sops-nix](https://github.com/Mic92/sops-nix) (Planned: Age-encrypted secrets)
-- **Networking:** Zero-Trust Mesh with [WireGuard](https://www.wireguard.com/)
+<details open>
+<summary><b>Core Infrastructure</b></summary>
 
----
+* **Operating System:** ![NixOS](https://img.shields.io/badge/NixOS-24.11-blueviolet?style=flat-square&logo=nixos) (Immutable & Declarative)
+* **Provisioning:** ![Nix Flakes](https://img.shields.io/badge/Nix_Flakes-Hermetic-blue?style=flat-square&logo=nixos) (Deterministic deployments)
+* **Networking:** ![WireGuard](https://img.shields.io/badge/WireGuard-Zero--Trust-orange?style=flat-square&logo=wireguard) (Encrypted Mesh Network)
+</details>
+
+<details>
+<summary><b>Security & Storage</b></summary>
+
+* **Secret Management:** ![sops-nix](https://img.shields.io/badge/sops--nix-Age-green?style=flat-square) (GitOps-friendly encryption)
+* **Storage:** ![ZFS](https://img.shields.io/badge/Storage-ZFS-blue?style=flat-square) (Data Integrity & Snapshots)
+* **Future Expansion:** High-availability storage (Ceph/Longhorn) planned for Phase 4.
+</details>
+
 
 ## 📂 Repository Structure
 
